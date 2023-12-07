@@ -1,11 +1,23 @@
+import { useState } from 'react'
 
+
+import ItemListContainer from './components/itemListContainer'
+import NavBar from './components/NavBar'
 
 const App = () => {
+  const productos = [
+    
+  ]
+
   return (
-    <> 
-    <h1> Bienvenido ¡Comparemos!</h1>
-      <input type="text" />
-    </>
+    <div>
+      <ItemListContainer
+      productos={productos}
+      />
+      <NavBar/>
+
+
+    </div>
   )
 }
 

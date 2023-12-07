@@ -1,8 +1,13 @@
-import React from 'react'
 
+import { Button, } from '@chakra-ui/react'
 const CartWidget = () => {
+  
   return (
-    <div>(Yo habia ponido mi carrito aca)</div>
+    <div>
+      <h2>(IMAGEN DE CARRITO)0</h2>
+      
+
+    </div>
   )
 }
 

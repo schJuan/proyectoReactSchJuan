@@ -3,6 +3,7 @@ import CartWidget from './CartWidget'
 import { Flex, Spacer, Box, Menu, MenuButton, MenuList, MenuItem} from '@chakra-ui/react'
 
 const NavBar = () => {
+  
   return (
     <div>
           <Flex>
@@ -11,11 +12,11 @@ const NavBar = () => {
                       CATEGORIAS
                   </MenuButton>
                   <MenuList>
-                      <MenuItem>Download</MenuItem>
-                      <MenuItem>Create a Copy</MenuItem>
-                      <MenuItem>Mark as Draft</MenuItem>
-                      <MenuItem>Delete</MenuItem>
-                      <MenuItem>Attend a Workshop</MenuItem>
+                      <MenuItem>COMESTIBLE</MenuItem>
+                      <MenuItem>ELECTRODOMESTICO</MenuItem>
+                      <MenuItem>HOGAR</MenuItem>
+                      <MenuItem>BEBIBLES</MenuItem>
+                      <MenuItem>CARNES</MenuItem>
                   </MenuList>
               </Menu>
               <Spacer />

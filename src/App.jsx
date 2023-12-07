@@ -3,6 +3,7 @@ import { useState } from 'react'
 
 import ItemListContainer from './components/itemListContainer'
 import NavBar from './components/NavBar'
+import Tarjeta from './components/Tarjeta'
 
 const App = () => {
   const productos = [
@@ -15,7 +16,7 @@ const App = () => {
       productos={productos}
       />
       <NavBar/>
-
+      <Tarjeta/>
 
     </div>
   )

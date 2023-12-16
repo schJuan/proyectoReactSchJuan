@@ -1,9 +1,11 @@
+import Itemlist from "./Itemlist"
 
-const ItemListContainer = ({productos}) => {
+const ItemListContainer = ({}) => {
    
   return (
     <>
-      
+    hola mundo
+      <Itemlist/>
     </>
   )
 }

@@ -6,18 +6,14 @@ import NavBar from './components/NavBar'
 import Tarjeta from './components/Tarjeta'
 
 const App = () => {
-  const productos = [
-    
-  ]
+  
 
   return (
     <div>
-      <ItemListContainer
-      productos={productos}
-      />
+      <ItemListContainer/>
       <NavBar/>
       <Tarjeta/>
-
+      
     </div>
   )
 }

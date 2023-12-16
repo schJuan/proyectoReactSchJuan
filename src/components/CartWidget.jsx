@@ -1,10 +1,10 @@
-
+import { AiOutlineShoppingCart } from "react-icons/ai";
 import { Button, } from '@chakra-ui/react'
 const CartWidget = () => {
   
   return (
     <div>
-      <h2>(IMAGEN DE CARRITO)0</h2>
+      <AiOutlineShoppingCart />
       
 
     </div>

@@ -2,6 +2,7 @@ import { Card, CardBody, CardFooter, Spacer, Stack, Heading, Divider, Text, Butt
 import CartWidget from './CartWidget'
 import { useState } from 'react'
 
+
 const Tarjeta = () => {
     const [contador, setContador] = useState(0)
   return (
@@ -38,32 +39,8 @@ const Tarjeta = () => {
 
           <Spacer />
 
-          <Card maxW='sm'>
-              <CardBody>
-                  <Stack mt='6' spacing='3'>
-                      <Heading size='md'>PAN DULCE DIA</Heading>
-                      <Text>
-                          PAN DULCE MARCA DIA 
-                      </Text>
-                      <Text color='blue.600' fontSize='2xl'>
-                          $9.999
-                      </Text>
-                  </Stack>
-              </CardBody>
-              <Divider />
-              <CardFooter>
-                  <ButtonGroup spacing='2'>
-                      <Button variant='solid' colorScheme='blue'>
-                          AÑADIR AL CARRITO 
-                      </Button>
-                      <Button variant='solid' colorScheme='blue'>
-                          
-                      </Button>
-                      
-                  </ButtonGroup>
-              </CardFooter>
-          </Card>
           
+         
          
           
           <Card maxW='sm'>

@@ -1,14 +1,24 @@
 import React from 'react'
+import Item from './Item'
 
-const Itemlist = () => {
+
+const Itemlist = ({productos}) => {
+
   return (
-    <>
-    
-    item list
-    
-    
-    </>
+    <div>
+      {
+        productos.map((p) => {
+          return(
+            <Item
+              titulo={p.titulo}
+              descripcion={p.descripcion}
+              precio={p.precio}
+            />
+          )
+        })
+      }
+      
+    </div>
   )
 }
-
 export default Itemlist

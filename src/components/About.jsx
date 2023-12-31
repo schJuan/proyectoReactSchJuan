@@ -1,9 +1,9 @@
 import React from 'react'
 
-const abaut = () => {
+const about = () => {
   return (
     <div>abaut</div>
   )
 }
 
-export default abaut
+export default about

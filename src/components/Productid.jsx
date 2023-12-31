@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 
-const Productid = () => {
+const ProductId = () => {
     const {id} = useParams()
     console.log(id)
   return (
@@ -9,4 +9,4 @@ const Productid = () => {
   )
 }
 
-export default Productid
+export default ProductId

@@ -8,6 +8,7 @@ import Home from './components/Home'
 import About from './components/About'
 import ContactUs from './components/ContactUs'
 import Cart from './components/Cart'
+import ProductId from './components/ProductId'
 
 
 const App = () => {
@@ -25,7 +26,7 @@ const App = () => {
           <Route exact path='/about' element={<About/>}/>
           <Route exact path='/contact' element={<ContactUs />}/>
           <Route exact path='/cart' element={<Cart />} />
-        <Route exact path='/product/:id' element={<ProductId/>} />
+          <Route exact path='/product/:id' element={<ProductId/>} />
         </Routes>
       
       

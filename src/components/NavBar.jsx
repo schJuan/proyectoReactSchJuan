@@ -13,8 +13,12 @@ const NavBar = () => {
                       CATEGORIAS
                   </MenuButton>
                   <MenuList>
+                    <Link to={'/categoria/A'}>
                       <MenuItem>COMESTIBLE</MenuItem>
+                    </Link>
+                    <Link to={'/categoria/B'}>
                       <MenuItem>ELECTRODOMESTICO</MenuItem>
+                    </Link>
                       <MenuItem>HOGAR</MenuItem>
                       <MenuItem>BEBIBLES</MenuItem>
                       <MenuItem>CARNES</MenuItem>
@@ -22,7 +26,7 @@ const NavBar = () => {
               </Menu>
               <Spacer />
               <Box p='4' >
-                <Link to={"/cart"}>
+                <Link to={"/"}>
                   <h1>COMPARA TODO</h1>
                 </Link>
 
